@@ -15,12 +15,10 @@ install:
 	@echo '      $$ conda activate $(ENV_NAME)'
 	@echo '======================================================================='
 
-run:
-	uvicorn main:app --reload
-
 lint:
-	ruff check --fix
 	ruff format
+	ruff check --fix
+	
 
 remove-conda:
 	$(CONDA) remove --name $(ENV_NAME) --all -y
