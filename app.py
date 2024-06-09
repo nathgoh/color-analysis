@@ -11,7 +11,7 @@ def portrait_processing(portrait):
 	return response
 
 
-with gr.Blocks() as demo:
+with gr.Blocks() as app:
 	gr.Markdown(
 		"""
         # Color Analysis Using LLM        
@@ -27,4 +27,4 @@ with gr.Blocks() as demo:
 
 
 if __name__ == "__main__":
-	demo.launch(share=True)
+	app.launch()
