@@ -18,7 +18,9 @@ install:
 lint:
 	ruff format
 	ruff check --fix
-	
+
+run:
+	gradio app.py
 
 remove-conda:
 	$(CONDA) remove --name $(ENV_NAME) --all -y
