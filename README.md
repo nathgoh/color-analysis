@@ -9,4 +9,4 @@ colorTo: blue
 short_description: Color analysis using LLM
 ---
 # color-analysis
-Color analysis using LLM
+Leveraging OpenCV and LLM to find out what your personal color is.
