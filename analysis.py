@@ -75,7 +75,7 @@ def analyze_skintone(hex_color: str) -> str:
 		"microsoft/Phi-3-mini-4k-instruct",
 		device_map="auto",
 		torch_dtype="auto",
-        trust_remote_code=True,
+		trust_remote_code=True,
 	)
 	tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-mini-4k-instruct")
 
